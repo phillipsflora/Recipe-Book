@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+}
+li a{
+    display:inline;
+    text-decoration: none;
+    padding:30px;
+    text-align: center;
+    padding-left: 60px;
+}
+ul{
+    padding:10px;
+}
+header{
+    width:100%;
+    padding:20px;
+    position:fixed;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(81, 78, 78);
+    
+}
+.login{
+    border-radius: 20px;
+    color:white;
+    margin-left:20px;
+    width:70px;
+    height:5vh;
+    background-color: rgb(215, 58, 58);
+}
+.head{
+    background-color: rgb(255, 17, 0);
+}
+li{
+    display:inline;
+    font-size:larger;
+    font-weight: 5rem;
+    
+}
+a{
+    color:rgb(247, 242, 242);
+}
+.center{
+    margin:0;
+    width:100%;
+}
+.img1{
+    padding: 0%;
+    margin: 10px;
+    width:100%;
+    height:60vh;
+    text-align:center;
+    z-index:-1;
+    position: absolute;
+
+}
+li a:hover{
+    color:red;
+}
+input{
+    color:black;
+    background-color: aliceblue;
+    border-radius:10px;
+    width:300px;
+    height:5vh;
+    animation-name:button;
+  animation-duration: 4s;
+  animation-delay: 2s;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 15%;
+    }
+    .button{
+        width:60px;
+        cursor:pointer;
+        height:5vh;
+        border-radius: 10px;
+        color:white;
+        background-color: red;
+        position:relative;
+        margin-top:10px;
+    }
+.u{
+    position: relative;
+    color:aliceblue;
+    background-color: none;
+    align-items: center;
+}
+.recipe-list{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    width:100%;
+    margin-top: 200px;
+    justify-content: space-between;
+    background: linear-gradient(180deg,black,rgb(35, 30, 30));
+}
+.img2{
+    width:350px;
+    height:30vh;
+    border-radius: 10px;
+    border-color: aliceblue solid 10px;
+}
+.lower{
+    background:linear-gradient(180deg,black,rgb(37, 36, 36));
+}
+.recipe-item{
+    width:400px;
+    border-radius: 10px;
+    height:45vh;
+    margin:20px;
+    background-color:grey;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    margin:10px;
+    padding:20px;
+}
